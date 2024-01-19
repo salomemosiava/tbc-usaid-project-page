@@ -163,10 +163,16 @@ h4 {
     border-radius: 6px;
 }
 
+.card-content {
+    flex-direction: column;
+    display: flex;
+    height: 179px;
+}
+
 .card-title{
     font-size: 18px;
     font-weight: var(--regular);
-    margin: 0px 0 25px;
+    line-height: 1.6em;
 }
 .card-info {
     font-size: var(--small-font-size);
