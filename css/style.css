@@ -80,7 +80,7 @@ h4 {
 
 /* hero-section */
 .hero-section {
-    background-image: url("/img/cover-image.webp");
+    background-image: url("../img/cover-image.webp");
     background-color: #cccccc;
     height: 352px;
     background-position: center;
@@ -285,7 +285,7 @@ h4 {
 
 /* Scrollbar */
 ::-webkit-scrollbar {
-    width: 0.8rem;
+    width: 0.6rem;
     border-radius: 0.5rem;
     background-color: var(--text-lighter);
 }
