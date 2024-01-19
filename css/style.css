@@ -143,7 +143,7 @@ h4 {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 37px 0;
+    gap: 25px 0;
 }
 
 .card-item {
