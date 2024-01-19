@@ -112,7 +112,7 @@ h4 {
     line-height: 2.8rem;
     margin-bottom: 43px;
 }
-.info-section a {
+.cta-btn {
     color: var(--text-secondary);
     font-family: 'TBC Sailec';
     font-weight: bold;
@@ -128,11 +128,7 @@ h4 {
     background-color: var(--bg-color-dark);
     padding: 34px 0 58px;
 }
-h4 {
-    font-size:24px;
-    font-weight: var(--regular);
-    margin-bottom: 67px;
-}
+
 .section_content {
     width: var(--content-width);
     display: flex;
@@ -140,6 +136,7 @@ h4 {
 }
 
 .card-list {
+    margin-top: 67px;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -285,8 +282,16 @@ h4 {
 
 
 
+/* faq-section */
+.faq-section {
+    background-color: var(--bg-color-dark);
+    padding: 75px 0;
+}
 
-
+.faq-flex {
+    display: flex;
+    justify-content: space-between;
+}
 
 
 
