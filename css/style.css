@@ -337,6 +337,9 @@ h5 {
     line-height: 2;
 
 }
+.info-accordion-description_li span {
+    font-weight: 600;
+}
 .info-accordion-content {
     overflow: hidden;
     height: 0;
