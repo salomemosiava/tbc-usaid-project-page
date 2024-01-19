@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'TBC X';
-    src: url('TBCX-Medium.eot');
-    src: url('TBCX-Medium.eot?#iefix') format('embedded-opentype'),
-        url('TBCX-Medium.woff2') format('woff2'),
-        url('TBCX-Medium.woff') format('woff'),
-        url('TBCX-Medium.ttf') format('truetype'),
-        url('TBCX-Medium.svg#TBCX-Medium') format('svg');
+    src: url('../fonts/TBCX-Medium.eot');
+    src: url('../fonts/TBCX-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TBCX-Medium.woff2') format('woff2'),
+        url('../fonts/TBCX-Medium.woff') format('woff'),
+        url('../fonts/TBCX-Medium.ttf') format('truetype'),
+        url('../fonts/TBCX-Medium.svg#TBCX-Medium') format('svg');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -13,12 +13,12 @@
 
 @font-face {
     font-family: 'TBC X';
-    src: url('TBCX-Black.eot');
-    src: url('TBCX-Black.eot?#iefix') format('embedded-opentype'),
-        url('TBCX-Black.woff2') format('woff2'),
-        url('TBCX-Black.woff') format('woff'),
-        url('TBCX-Black.ttf') format('truetype'),
-        url('TBCX-Black.svg#TBCX-Black') format('svg');
+    src: url('../fonts/TBCX-Black.eot');
+    src: url('../fonts/TBCX-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TBCX-Black.woff2') format('woff2'),
+        url('../fonts/TBCX-Black.woff') format('woff'),
+        url('../fonts/TBCX-Black.ttf') format('truetype'),
+        url('../fonts/TBCX-Black.svg#TBCX-Black') format('svg');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -26,12 +26,12 @@
 
 @font-face {
     font-family: 'TBC X';
-    src: url('TBCX-Regular.eot');
-    src: url('TBCX-Regular.eot?#iefix') format('embedded-opentype'),
-        url('TBCX-Regular.woff2') format('woff2'),
-        url('TBCX-Regular.woff') format('woff'),
-        url('TBCX-Regular.ttf') format('truetype'),
-        url('TBCX-Regular.svg#TBCX-Regular') format('svg');
+    src: url('../fonts/TBCX-Regular.eot');
+    src: url('../fonts/TBCX-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TBCX-Regular.woff2') format('woff2'),
+        url('../fonts/TBCX-Regular.woff') format('woff'),
+        url('../fonts/TBCX-Regular.ttf') format('truetype'),
+        url('../fonts/TBCX-Regular.svg#TBCX-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -39,12 +39,12 @@
 
 @font-face {
     font-family: 'TBC Sailec';
-    src: url('TBCSailec-Bold.eot');
-    src: url('TBCSailec-Bold.eot?#iefix') format('embedded-opentype'),
-        url('TBCSailec-Bold.woff2') format('woff2'),
-        url('TBCSailec-Bold.woff') format('woff'),
-        url('TBCSailec-Bold.ttf') format('truetype'),
-        url('TBCSailec-Bold.svg#TBCSailec-Bold') format('svg');
+    src: url('../fonts/TBCSailec-Bold.eot');
+    src: url('../fonts/TBCSailec-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TBCSailec-Bold.woff2') format('woff2'),
+        url('../fonts/TBCSailec-Bold.woff') format('woff'),
+        url('../fonts/TBCSailec-Bold.ttf') format('truetype'),
+        url('../fonts/TBCSailec-Bold.svg#TBCSailec-Bold') format('svg');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -52,12 +52,12 @@
 
 @font-face {
     font-family: 'Inter Semi';
-    src: url('Inter-SemiBold.eot');
-    src: url('Inter-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url('Inter-SemiBold.woff2') format('woff2'),
-        url('Inter-SemiBold.woff') format('woff'),
-        url('Inter-SemiBold.ttf') format('truetype'),
-        url('Inter-SemiBold.svg#Inter-SemiBold') format('svg');
+    src: url('../fonts/Inter-SemiBold.eot');
+    src: url('../fonts/Inter-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Inter-SemiBold.woff2') format('woff2'),
+        url('../fonts/Inter-SemiBold.woff') format('woff'),
+        url('../fonts/Inter-SemiBold.ttf') format('truetype'),
+        url('../fonts/Inter-SemiBold.svg#Inter-SemiBold') format('svg');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
