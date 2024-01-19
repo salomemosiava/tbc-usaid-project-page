@@ -369,6 +369,9 @@ h5 {
     align-items: center;
     width: var(--content-width);
   }
+  .footer-line:last-child {
+    align-items: flex-end;
+  }
   
   .footer-line img {
     height: 30px;
