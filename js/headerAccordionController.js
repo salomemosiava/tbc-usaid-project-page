@@ -13,19 +13,24 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 // accordion
-const items = document.querySelectorAll(".info-accordion-item");
+const accordionItems = document.querySelectorAll(".info-accordion-item");
 
-items.forEach(item => {
-    const header = item.querySelector('.info-accordion-header');
+accordionItems.forEach(item => {
+    const itemHeader = item.querySelector('.info-accordion-header');
 
-    header.addEventListener("click", () => {
-        const openItem = document.querySelector(".accordion-open");
+    itemHeader.addEventListener("click", () => {
+        const openAccordionItem = document.querySelector(".accordion-open");
 
-        if (openItem && openItem !== item) {
-            toggle(openItem); // Close the previously open item!!
+        if (openAccordionItem && openAccordionItem !== item) {
+            toggle(openAccordionItem); // Close the previously open item!!
         }
 
         toggle(item); // Open or close the clicked item
+
+        // Scroll to the opened item for a smooth experience
+        if (item.classList.contains("accordion-open")) {
+            item.scrollIntoView({ behavior: "smooth" });
+        }
     });
 });
 

@@ -143,17 +143,16 @@ h5 {
 
 .card-list {
     margin-top: 67px;
-    width: 100%;
+    max-width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 25px 0;
+    gap: 25px;
 }
 
 .card-item {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width:300px;
     height: 414px;
     margin-top: -2px;
     border-radius: 6px;
