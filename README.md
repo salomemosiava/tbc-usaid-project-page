@@ -14,7 +14,9 @@ responsive-style.css: Styles for making things look good on all screens.
 
 style.css: Main styles for everything.
 
-Fonts: Where font files are stored.
+
+ 📁 Fonts: Where font files are stored.
+
 
  📁 Images (img): Directory for all the pictures.
 
@@ -29,9 +31,13 @@ course.js: Manages features related to courses section.
 
 headerAccordionController.js: Controls header & Accordion
 
+
 ℹ️ README.md: Documentation file containing important project information.
 
+
 🏠 index.html: The main HTML file representing the structure of the project.
+
+
 
 
 ## Technologies and Why
@@ -41,6 +47,8 @@ CSS: Styles things up.
 
 JavaScript: Adds interactivity.
 
+
+
 ## 🚀 Getting Started
 1) Clone the Repository
 
@@ -49,6 +57,8 @@ Use the code editor you like.
 
 3) Launching the Project:
 Open the HTML file (index.html) in your browser to see the project.
+
+
 
 
 ## Acknowledgments
