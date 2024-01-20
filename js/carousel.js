@@ -8,7 +8,7 @@ let logosPerGroup = getLogosPerGroup(); // Initial setting
 
 window.addEventListener('resize', () => {
     logosPerGroup = getLogosPerGroup(); // Update when the window is resized
-    console.log(logosPerGroup);
+    console.log("partner carousel logosPerGroup:",logosPerGroup);
 });
 
 function getLogosPerGroup() {
