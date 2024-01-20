@@ -83,7 +83,10 @@ h5 {
 .nav-item a:hover, .nav-item a.active  {
     color: var(--text-secondary)
 }
-
+.burger-menu {
+    display: none;
+    cursor: pointer;
+}
 /* hero-section */
 .hero-section {
     background-image: url("../img/cover-image.webp");
@@ -153,7 +156,7 @@ h5 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 414px;
+    height: auto;
     margin-top: -2px;
     border-radius: 6px;
     border: 1px solid rgba(85, 85, 85, 1);
@@ -161,6 +164,9 @@ h5 {
 }
 
 .card-image {
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
     height: 150px;
     border-radius: 6px;
 }
@@ -175,6 +181,7 @@ h5 {
     font-size: var(--small-font-size);
     font-weight: var(--regular);
     height: 80px;
+    line-height: 1.6rem;
 }
 .card-title,
 .card-info,
@@ -192,6 +199,8 @@ h5 {
     align-items:center;
     gap: 8px;
     transition: var(--trans);
+    flex-wrap: nowrap;
+    text-wrap: nowrap;
 }
 .card-button:hover {
     color: #0489b9;
