@@ -6,6 +6,7 @@ const toggleMenu = () => {
     document.querySelector('.burger-menu-icon').src = `img/burger_${isOpen ? 'open' : 'close'}.svg.svg`;
 };
 
+
 const closeMenu = () => {
     const navList = document.querySelector('.nav-list');
     navList.classList.remove('active');

@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 
 :root {
     --content-width: 980px;
@@ -11,6 +18,8 @@
 
     /*font */
     --big-font-size: 2.625rem;
+    --body-font-size: 1rem;
+
     --small-font-size: 0.875rem;
 
     --regular: 500;
@@ -27,24 +36,32 @@ body {
     font-family: 'TBC X';
     background-color: var(--bg-color);
     color: var(--text-lighter);
+    font-size: var(--small-font-size);
+}
+h4, h5 {
+    font-weight: var(--regular);
 }
 h4 {
-    font-size:24px;
-    font-weight: var(--regular);
+    font-size: 1.5rem;
 }
 
 h5 {
-    font-size: 18px;
-    font-weight: var(--regular);
+    font-size: 1.125rem;
     line-height: 1.6em;
 }
 
 .header {
     background-color: var(--header_footer);
     width: 100%;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
     transition: 0.4s;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     position: fixed;
     top: 0;
     left: 0;
@@ -54,15 +71,30 @@ h5 {
     background-color: rgba(34, 34, 34, 0.95);
 }
 .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .nav-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: var(--content-width);
     margin: 22px 0;
 }
@@ -70,13 +102,18 @@ h5 {
     height: 40px;
 }
 .nav-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 48px;
-    justify-content: baseline;
+    -webkit-box-pack: baseline;
+        -ms-flex-pack: baseline;
+            justify-content: baseline;
 }
 .nav-item a {
     color: var(--text-lighter);
-    font-size: var(--small-font-size);
+    -webkit-transition: var(--trans);
+    -o-transition: var(--trans);
     transition: var(--trans);
     font-weight: var(--regular);
 }
@@ -101,11 +138,10 @@ h5 {
     font-size: var(--big-font-size);
     width: var(--content-width);
     line-height: 1.6em;
-    font-weight: bolder;
     font-weight: var(--bold);
 }
 .hero-section span {
-    font-size: 34px;
+    font-size: 2.125rem;
     display: block;
 }
 
@@ -114,7 +150,10 @@ h5 {
 .info-section div{
     width: var(--content-width);
     padding: 57px 0;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 .info-section h3 {
     width: 99%;
@@ -126,7 +165,9 @@ h5 {
     color: var(--text-secondary);
     font-family: 'TBC Sailec';
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.25rem;
+    -webkit-transition: var(--trans);
+    -o-transition: var(--trans);
     transition: var(--trans);
 }
 .info-section a:hover {
@@ -141,22 +182,36 @@ h5 {
 
 .section_content {
     width: var(--content-width);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 
 .card-list {
     margin-top: 67px;
     max-width: 100%;
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 1fr 25px 1fr 25px 1fr;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
 }
 
 .card-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     height: auto;
     margin-top: -2px;
     border-radius: 6px;
@@ -173,13 +228,17 @@ h5 {
 }
 
 .card-content {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     height: 179px;
 }
 
 .card-info {
-    font-size: var(--small-font-size);
     font-weight: var(--regular);
     height: 80px;
     line-height: 1.6rem;
@@ -193,14 +252,21 @@ h5 {
 
 .card-button {
     line-height: 37px;
-    font-size: 16px;
+    font-size: var(--body-font-size);
     color: var(--text-secondary);
     font-weight: 500;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items:center;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
     gap: 8px;
+    -webkit-transition: var(--trans);
+    -o-transition: var(--trans);
     transition: var(--trans);
-    flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
     text-wrap: nowrap;
 }
 .card-button:hover {
@@ -223,15 +289,33 @@ h5 {
 
 
 #carousel-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
     transition: opacity 0.5s ease-in-out;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     gap: 100px;
     height: 80px;
     margin-top: 32px;
   }
 /* animation */
+  @-webkit-keyframes fadeOut {
+    0% {
+      opacity: 1;
+      visibility: visible;
+    }
+    100% {
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
   @keyframes fadeOut {
     0% {
       opacity: 1;
@@ -244,7 +328,8 @@ h5 {
   }
   
   .fade-out {
-    animation: fadeOut 0.5s ease-in-out;
+    -webkit-animation: fadeOut 0.5s ease-in-out;
+            animation: fadeOut 0.5s ease-in-out;
   }
   
   .fade-in {
@@ -255,6 +340,8 @@ h5 {
 
   
   .dots {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin: 32px 0 50px;
   }
@@ -276,7 +363,9 @@ h5 {
 .arrow-button {
     position: absolute;
     top: 50%;
-    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+            transform: translateY(0%);
     cursor: pointer;
 }
 
@@ -287,7 +376,9 @@ h5 {
 
 #arrow-right {
     right: 100px;
-    transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+        -ms-transform: scaleX(-1);
+            transform: scaleX(-1);
 }
 
 
@@ -299,8 +390,12 @@ h5 {
 }
 
 .faq-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 
@@ -317,34 +412,45 @@ h5 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     cursor: pointer;
     height: 80px;
 }
 .info-accordion-arrows img {
     height: 24px;
     width: 24px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
     transition: 0.3s;
     padding: 6px;
 }
 
 .info-accordion-arrows {
     margin-left: auto;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
     transition: 0.3s;
 }
 .info-accordion-arrows img {
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
     transition: 0.4s;
 }
 .info-accordion-description {
-    font-size: var(--small-font-size);
     padding: 1.25rem 2.5rem 1.875rem 0;
     line-height: 2;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 .info-accordion-description_li {
     margin: 2px 0 3px 1.5rem;
-    font-size: var(--small-font-size);
     line-height: 2;
 
 }
@@ -374,13 +480,21 @@ h5 {
 }
   
   .footer-line {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: var(--content-width);
   }
   .footer-line:last-child {
-    align-items: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
   }
   
   .footer-line img {
@@ -389,6 +503,8 @@ h5 {
   }
   
   .social-icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 8px
 
@@ -400,17 +516,20 @@ h5 {
   }
   
   .footer-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     gap:18px;
   }
-  .footer-info a, span {
-    font-size: var(--small-font-size);
-  }
+
   
   .message-button {
     height: 39px;
-    font-size: 16px;
+    font-size: var(--body-font-size);
     font-family: "TBC X";
     font-weight: var(--regular);
     padding: 0px 32px;
@@ -418,6 +537,8 @@ h5 {
     color: white;
     border-radius: 6px;
     cursor: pointer;
+    -webkit-transition: var(--trans);
+    -o-transition: var(--trans);
     transition: var(--trans);
   }
   .message-button:hover {
