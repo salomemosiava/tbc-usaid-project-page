@@ -8,8 +8,9 @@ let logosPerGroup = getLogosPerGroup(); // Initial setting
 
 window.addEventListener('resize', () => {
     logosPerGroup = getLogosPerGroup(); // Update when the window is resized
-    console.log("partner carousel logosPerGroup:",logosPerGroup);
+    // console.log(`Responsive adjustment: logosPerGroup = ${logosPerGroup}.`);
 });
+console.log(`Responsive adjustment: logosPerGroup = ${logosPerGroup}.`);
 
 function getLogosPerGroup() {
     const screenWidth = window.innerWidth;
