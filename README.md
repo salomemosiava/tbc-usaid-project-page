@@ -6,13 +6,13 @@ This project is a vanilla HTML, CSS, and JavaScript demonstration—web developm
 ## Project Structure
 🎨 CSS:
 
-fonts.css: Styles for fonts.
+	fonts.css: Styles for fonts.
 
-reset.css:  Implements reset styles for consistent rendering across browsers.
+	reset.css:  Implements reset styles for consistent rendering across browsers.
 
-responsive-style.css: Styles for making things look good on all screens.
+	responsive-style.css: Styles for making things look good on all screens.
 
-style.css: Main styles for everything.
+	style.css: Main styles for everything.
 
 
  📁 Fonts: Where font files are stored.
@@ -23,13 +23,13 @@ style.css: Main styles for everything.
 
 🚀 JavaScript (js):
 
-burger.js: Makes the burger menu work.
+	burger.js: Makes the burger menu work.
 
-carousel.js: Enables functionality for the image slider.
+	carousel.js: Enables functionality for the image slider.
 
-course.js: Manages features related to courses section.
+	course.js: Manages features related to courses section.
 
-headerAccordionController.js: Controls header & Accordion
+	headerAccordionController.js: Controls header & Accordion
 
 
 ℹ️ README.md: Documentation file containing important project information.
